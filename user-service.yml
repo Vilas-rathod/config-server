@@ -6,7 +6,7 @@ server:
   port: 8081
 
   datasource:
-    url: jdbc:mysql://localhost:3306/productdb
+    url: jdbc:mysql://localhost:3306/userdb
     username: root
     password: Rathod@9586
     driver-class-name: com.mysql.cj.jdbc.Driver
