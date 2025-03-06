@@ -1,7 +1,7 @@
-spring:
-  application:
-    name: product-service
+server:
+  port: 8082
 
+spring:
   datasource:
     url: jdbc:mysql://localhost:3306/productdb
     username: root
@@ -15,9 +15,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-
-server:
-  port: 8082
 
 eureka:
   client:
